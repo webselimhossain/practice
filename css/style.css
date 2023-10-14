@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(../img/background-2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 768px;
+    padding: 20px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.ocontainer{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 768px;
+    padding: 20px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.fcontainer{
+    background-image: url(../img/Background5.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 768px;
+    padding: 20px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.navbar{
+    text-align: center;
+    flex: 100;
+}
+.navbar a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;  
+}
+.navbar a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: auto;
+    padding: 10px 30px;
+    border: 2px solid tomato;
+    border-radius: 30px;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: tomato;
+}
+.btn a:hover{
+    color: #ffffff;
+    background-color: tomato;
+}
+.btn a:link{
+    text-decoration: none;
+}
+.btn a:visited{
+    background-color: tomato;
+}
+.content{
+    text-align: center;
+    margin-top: 12%;
+}
+.content h1{
+    font-size: 80px;
+    color: rgb(228, 8, 8);
+}
+.content h2{
+    padding-top: 40px;
+    font-size: 30px;
+    color: tomato; 
+}
+.content p{
+    padding-top: 20px;
+    color: black; 
+}
+.secondsec{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 620px;
+    box-sizing: border-box;
+}
+.secondsec p{
+    padding: 10px 40px;
+    text-align: justify;
+}
+.secondsec h3{
+    padding: 20px;
+    text-align: center;
+}
+.timg{
+    width: 350px;
+    height: 350px;
+}
+.test{
+    margin: 20px;
+}
+.footer{
+    background-color: tomato;
+}
+.footer p{
+    text-align: center;
+    padding: 20px;
+}
+.contactsec{
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+}
+.contactsec form{
+    display: block;
+    padding: 40px;
+    width: 100%;
+    align-items: center;
+}
+.contact{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+input{
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+}
+textarea{
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.contact h4{
+    padding-top: 10px;
+}
+.contacthead{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.login{
+    border-radius: 10px;
+    display: block;
+    padding: 20px 40px;
+    align-items: center;
+    margin: auto;
+    width: 320px;
+    background-image: linear-gradient(rgba(74, 69, 223, 0.908), rgb(161, 57, 225));
+    color: white;
+}
+.login h1{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.login .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+}
+.input-box i{
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.input-box input{
+    width: 85%;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: solid 1px white;
+}
+.input-box input::placeholder{
+    font-size: 14px;
+    color: white;
+}
+.login .remember{
+    display: flex;
+    margin: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+.check{
+    width: 20px;
+}
+.remember label input{
+    accent-color: #fff;
+}
+.remember a{
+    color: white;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+    color: rgb(10, 10, 10);
+}
+.login .buton{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.login .buton:hover{
+    cursor: pointer;
+    background-color: tomato;
+    border: solid 1px tomato;
+    color: white;
+}
+.login .register-link{
+    font-size: 15.5px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.register-link p a{
+    padding-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.register-link p a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.login p{
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
